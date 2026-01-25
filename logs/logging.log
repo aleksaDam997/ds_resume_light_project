@@ -1,2 +1,210 @@
 [2026-01-23 01:32:50,721: INFO: main]: Starting the main application...
 [2026-01-23 01:32:53,642: INFO: main]: Starting the main application...
+[2026-01-24 14:48:03,351: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 14:48:03,361: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 14:49:09,772: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 14:49:09,778: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 14:49:09,782: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 14:49:09,786: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 14:49:09,789: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 14:49:09,792: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:03:57,767: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:03:57,771: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:03:57,779: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:03:57,788: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:03:57,795: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:03:57,799: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:11:55,364: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:11:55,367: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:11:55,370: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:11:55,374: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:11:55,377: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:11:55,382: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:15:49,295: ERROR: common]: Error reading the YAML file: config\config.yaml
+Traceback (most recent call last):
+  File "c:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\src\ds_resume_light_project\utils\common.py", line 23, in read_yaml
+    with open(path_to_yaml, 'r') as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2026-01-24 19:17:33,951: ERROR: common]: Error reading the YAML file: config\config.yaml
+Traceback (most recent call last):
+  File "c:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\src\ds_resume_light_project\utils\common.py", line 23, in read_yaml
+    with open(path_to_yaml, 'r') as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2026-01-24 19:39:57,297: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:39:57,306: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:39:57,311: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:44:10,608: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:44:10,611: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:44:10,612: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:46:34,566: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:46:34,568: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:46:34,570: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:47:43,737: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:47:43,739: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:47:43,741: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:48:05,206: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:48:05,210: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:48:05,214: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:49:07,296: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:49:07,296: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:49:07,296: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:49:31,877: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:49:31,880: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:49:31,883: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:52:27,074: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:52:27,085: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:52:27,089: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:52:51,048: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:52:51,055: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:52:51,057: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:52:51,059: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:55:30,995: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:55:30,998: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:55:31,000: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:55:31,001: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:56:20,695: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:56:20,698: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:56:20,700: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:56:20,702: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:56:33,950: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:56:33,954: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:56:33,955: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:56:33,956: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:57:21,542: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:57:21,545: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:57:21,548: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:57:21,549: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:57:21,550: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 19:59:29,319: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:59:29,324: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:59:29,326: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:59:29,328: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:59:29,329: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 19:59:47,670: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 19:59:47,671: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 19:59:47,674: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 19:59:47,676: INFO: common]: Directory created at: artifacts
+[2026-01-24 19:59:47,677: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 20:01:54,592: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 20:01:54,595: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 20:01:54,597: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 20:01:54,598: INFO: common]: Directory created at: artifacts
+[2026-01-24 20:01:54,599: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 20:01:55,597: INFO: 3219601873]: File : artifacts\data_ingestion\data.zip downloaded successfully with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4664:113F0E:220EFAE:26676F7:69751735
+Accept-Ranges: bytes
+Date: Sat, 24 Jan 2026 19:02:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-vie6339-VIE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1769281334.004664,VS0,VE308
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0d6494fe65e1f4e9bc2926cd608fb8edb0753a32
+Expires: Sat, 24 Jan 2026 19:07:14 GMT
+Source-Age: 0
+
+
+[2026-01-24 20:01:55,614: INFO: 3219601873]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-24 21:15:04,726: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-24 21:15:04,727: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 21:15:04,728: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 21:15:04,728: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 21:15:04,729: INFO: common]: Directory created at: artifacts
+[2026-01-24 21:15:04,729: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 21:15:05,682: INFO: data_ingestion]: File : artifacts\data_ingestion\data.zip downloaded successfully with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 7AA8:3DF1FE:22FF7BA:27D62FA:6975285B
+Accept-Ranges: bytes
+Date: Sat, 24 Jan 2026 20:15:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-vie6380-VIE
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1769285724.241579,VS0,VE139
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 54c1ffa980556cf076703564cd4b5f438b43c79b
+Expires: Sat, 24 Jan 2026 20:20:24 GMT
+Source-Age: 0
+
+
+[2026-01-24 21:15:05,700: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-24 21:15:05,701: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-24 21:15:10,226: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-24 21:15:10,227: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-24 21:15:10,228: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-24 21:15:10,228: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-24 21:15:10,228: INFO: common]: Directory created at: artifacts
+[2026-01-24 21:15:10,229: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-24 21:15:10,229: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-24 21:15:10,230: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-24 21:15:10,231: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 01:46:18,289: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 01:46:18,292: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 01:46:18,298: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 01:46:18,299: INFO: common]: Directory created at: artifacts
+[2026-01-25 01:46:18,304: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-25 02:48:14,347: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-25 02:48:14,357: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 02:48:14,374: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 02:48:14,377: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 02:48:14,379: INFO: common]: Directory created at: artifacts
+[2026-01-25 02:48:14,379: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-25 02:48:14,380: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-25 02:48:14,393: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-25 02:48:14,393: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 02:48:14,393: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-25 02:48:14,393: ERROR: main]: name 'DataValidationTrainingPipeline' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\main.py", line 19, in <module>
+    data_validation_pipeline = DataValidationTrainingPipeline()
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2026-01-25 02:49:25,767: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-25 02:49:25,769: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 02:49:25,769: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 02:49:25,771: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 02:49:25,772: INFO: common]: Directory created at: artifacts
+[2026-01-25 02:49:25,772: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-25 02:49:25,772: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-25 02:49:25,775: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-25 02:49:25,776: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 02:49:25,776: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-25 02:49:25,777: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 02:49:25,778: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 02:49:25,780: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 02:49:25,782: INFO: common]: Directory created at: artifacts
+[2026-01-25 02:49:25,783: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-25 02:49:25,812: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
