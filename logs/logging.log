@@ -208,3 +208,82 @@ x==========x
 [2026-01-25 02:49:25,812: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
 
 x==========x
+[2026-01-25 19:52:01,161: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 19:52:01,167: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 19:52:01,181: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 19:52:01,184: INFO: common]: Directory created at: artifacts
+[2026-01-25 19:52:01,186: INFO: common]: Directory created at: artifacts/data_transformation
+[2026-01-25 19:52:01,230: INFO: 159225224]: Data split completed
+[2026-01-25 19:52:01,231: INFO: 159225224]: Train data shape: (1279, 12)
+[2026-01-25 19:52:01,231: INFO: 159225224]: Test data shape: (320, 12)
+[2026-01-25 20:08:45,230: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-25 20:08:46,736: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-25 20:08:46,738: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 20:08:46,739: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 20:08:46,740: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 20:08:46,740: INFO: common]: Directory created at: artifacts
+[2026-01-25 20:08:46,741: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-25 20:08:46,741: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-25 20:08:46,757: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-25 20:08:46,758: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 20:08:46,758: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-25 20:08:46,759: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 20:08:46,760: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 20:08:46,761: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 20:08:46,762: INFO: common]: Directory created at: artifacts
+[2026-01-25 20:08:46,763: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-25 20:08:46,799: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2026-01-25 20:08:46,799: INFO: main]: >>>>>> Stage Data Transformation Stage started <<<<<<
+[2026-01-25 20:08:46,801: INFO: data_transformation_pipeline]: Data Validation is not completed. So, we cannot proceed with Data Transformation Stage
+[2026-01-25 20:08:46,801: ERROR: data_transformation_pipeline]: Data Validation is not completed. So, we cannot proceed with Data Transformation Stage
+Traceback (most recent call last):
+  File "C:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\src\ds_resume_light_project\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception(f"Data Validation is not completed. So, we cannot proceed with {STAGE_NAME}")
+Exception: Data Validation is not completed. So, we cannot proceed with Data Transformation Stage
+[2026-01-25 20:08:46,802: ERROR: main]: Data Validation is not completed. So, we cannot proceed with Data Transformation Stage
+Traceback (most recent call last):
+  File "C:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\main.py", line 33, in <module>
+    data_transformation_pipeline.initiate_data_transformation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\src\ds_resume_light_project\pipeline\data_transformation_pipeline.py", line 28, in initiate_data_transformation
+    raise e
+  File "C:\Users\Korisnik\Desktop\ml_projects\ds_resume_light_project\ds_resume_light_project\src\ds_resume_light_project\pipeline\data_transformation_pipeline.py", line 24, in initiate_data_transformation
+    raise Exception(f"Data Validation is not completed. So, we cannot proceed with {STAGE_NAME}")
+Exception: Data Validation is not completed. So, we cannot proceed with Data Transformation Stage
+[2026-01-25 20:10:11,433: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-25 20:10:12,317: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-25 20:10:12,319: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 20:10:12,320: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 20:10:12,321: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 20:10:12,321: INFO: common]: Directory created at: artifacts
+[2026-01-25 20:10:12,321: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-25 20:10:12,322: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-25 20:10:12,324: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-25 20:10:12,324: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 20:10:12,324: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-25 20:10:12,325: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 20:10:12,327: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 20:10:12,330: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 20:10:12,332: INFO: common]: Directory created at: artifacts
+[2026-01-25 20:10:12,332: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-25 20:10:12,370: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2026-01-25 20:10:12,371: INFO: main]: >>>>>> Stage Data Transformation Stage started <<<<<<
+[2026-01-25 20:10:12,374: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 20:10:12,375: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 20:10:12,376: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 20:10:12,377: INFO: common]: Directory created at: artifacts
+[2026-01-25 20:10:12,378: INFO: common]: Directory created at: artifacts/data_transformation
+[2026-01-25 20:10:12,405: INFO: data_transformation]: Data split completed
+[2026-01-25 20:10:12,406: INFO: data_transformation]: Train data shape: (1279, 12)
+[2026-01-25 20:10:12,406: INFO: data_transformation]: Test data shape: (320, 12)
+[2026-01-25 20:10:12,407: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x
