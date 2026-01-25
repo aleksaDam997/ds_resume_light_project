@@ -287,3 +287,73 @@ x==========x
 [2026-01-25 20:10:12,407: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
 
 x==========x
+[2026-01-25 22:04:16,801: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:04:16,804: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:04:16,808: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:04:16,810: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:04:16,812: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-25 22:04:16,813: ERROR: 62345617]: 'str' object has no attribute 'TARGET_COLUMN'
+Traceback (most recent call last):
+  File "C:\Users\Korisnik\AppData\Local\Temp\ipykernel_13668\62345617.py", line 2, in <module>
+    config = ConfigurationManager().get_model_trainer_config()
+  File "C:\Users\Korisnik\AppData\Local\Temp\ipykernel_13668\3385223093.py", line 24, in get_model_trainer_config
+    target_column = schema.TARGET_COLUMN
+AttributeError: 'str' object has no attribute 'TARGET_COLUMN'
+[2026-01-25 22:04:29,448: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:04:29,450: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:04:29,451: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:04:29,456: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:04:29,458: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-25 22:05:12,077: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:05:12,080: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:05:12,084: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:05:12,086: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:05:12,088: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-25 22:05:42,242: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:05:42,244: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:05:42,248: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:05:42,248: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:05:42,252: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-25 22:15:16,368: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-25 22:16:29,987: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-25 22:16:30,943: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-25 22:16:30,944: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:16:30,945: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:16:30,946: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:16:30,946: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:16:30,947: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-25 22:16:30,947: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-25 22:16:30,949: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-25 22:16:30,949: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-25 22:16:30,949: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-25 22:16:30,950: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:16:30,951: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:16:30,953: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:16:30,954: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:16:30,954: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-25 22:16:30,997: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2026-01-25 22:16:30,997: INFO: main]: >>>>>> Stage Data Transformation Stage started <<<<<<
+[2026-01-25 22:16:31,020: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:16:31,021: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:16:31,024: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:16:31,026: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:16:31,027: INFO: common]: Directory created at: artifacts/data_transformation
+[2026-01-25 22:16:31,044: INFO: data_transformation]: Data split completed
+[2026-01-25 22:16:31,044: INFO: data_transformation]: Train data shape: (1279, 12)
+[2026-01-25 22:16:31,044: INFO: data_transformation]: Test data shape: (320, 12)
+[2026-01-25 22:16:31,045: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x
+[2026-01-25 22:16:31,045: INFO: main]: >>>>>> Stage Data Training Stage started <<<<<<
+[2026-01-25 22:16:31,047: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-25 22:16:31,048: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-25 22:16:31,050: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-25 22:16:31,050: INFO: common]: Directory created at: artifacts
+[2026-01-25 22:16:31,051: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-25 22:16:31,123: INFO: main]: >>>>>> Stage Data Training Stage completed <<<<<<
+
+x==========x
