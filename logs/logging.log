@@ -575,3 +575,147 @@ x==========x
 [2026-01-27 00:30:55,573: INFO: main]: >>>>>> Stage Model Evaluation Stage completed <<<<<<
 
 x==========x
+[2026-01-27 23:46:48,723: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-27 23:46:51,863: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-27 23:46:51,874: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:46:51,892: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:46:51,907: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:46:51,908: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:46:51,908: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-27 23:46:51,909: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-27 23:46:51,935: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-27 23:46:51,935: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:46:51,936: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-27 23:46:51,938: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:46:51,939: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:46:51,940: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:46:51,941: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:46:51,941: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-27 23:46:51,973: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:46:51,974: INFO: main]: >>>>>> Stage Data Transformation Stage started <<<<<<
+[2026-01-27 23:46:51,990: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:46:51,992: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:46:51,993: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:46:51,994: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:46:51,994: INFO: common]: Directory created at: artifacts/data_transformation
+[2026-01-27 23:46:52,014: INFO: data_transformation]: Data split completed
+[2026-01-27 23:46:52,014: INFO: data_transformation]: Train data shape: (1279, 12)
+[2026-01-27 23:46:52,015: INFO: data_transformation]: Test data shape: (320, 12)
+[2026-01-27 23:46:52,015: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:46:52,016: INFO: main]: >>>>>> Stage Data Training Stage started <<<<<<
+[2026-01-27 23:46:52,018: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:46:52,019: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:46:52,021: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:46:52,022: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:46:52,022: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-27 23:46:52,080: INFO: main]: >>>>>> Stage Data Training Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:46:52,080: INFO: main]: >>>>>> Stage Model Evaluation Stage started <<<<<<
+[2026-01-27 23:46:52,082: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:46:52,083: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:46:52,085: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:46:52,085: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:46:52,085: INFO: common]: Directory created at: artifacts/model_evaluation
+[2026-01-27 23:46:53,783: INFO: common]: JSON file saved at: artifacts\model_evaluation\metric.json
+[2026-01-27 23:47:09,705: INFO: main]: >>>>>> Stage Model Evaluation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:50:05,220: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080
+[2026-01-27 23:50:05,220: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2026-01-27 23:50:05,247: INFO: _internal]:  * Restarting with watchdog (windowsapi)
+[2026-01-27 23:50:06,109: WARNING: _internal]:  * Debugger is active!
+[2026-01-27 23:50:06,112: INFO: _internal]:  * Debugger PIN: 802-203-129
+[2026-01-27 23:50:21,825: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:50:21] "GET / HTTP/1.1" 200 -
+[2026-01-27 23:50:21,837: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:50:21] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2026-01-27 23:50:21,885: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:50:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-01-27 23:50:32,303: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:50:32] "POST /predict HTTP/1.1" 200 -
+[2026-01-27 23:52:43,728: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.2:8080
+[2026-01-27 23:52:43,729: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2026-01-27 23:52:43,737: INFO: _internal]:  * Restarting with watchdog (windowsapi)
+[2026-01-27 23:52:44,499: WARNING: _internal]:  * Debugger is active!
+[2026-01-27 23:52:44,502: INFO: _internal]:  * Debugger PIN: 802-203-129
+[2026-01-27 23:53:05,074: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:05] "GET / HTTP/1.1" 200 -
+[2026-01-27 23:53:05,090: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:05] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2026-01-27 23:53:10,096: INFO: utils]: NumExpr defaulting to 12 threads.
+[2026-01-27 23:53:12,557: INFO: main]: >>>>>> Stage Data Ingestion Stage started <<<<<<
+[2026-01-27 23:53:12,560: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:53:12,561: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:53:12,562: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:53:12,562: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:53:12,563: INFO: common]: Directory created at: artifacts/data_ingestion
+[2026-01-27 23:53:12,563: INFO: data_ingestion]: File already exists of path: artifacts\data_ingestion\data.zip
+[2026-01-27 23:53:12,565: INFO: data_ingestion]: File extracted successfully at location: artifacts\data_ingestion
+[2026-01-27 23:53:12,565: INFO: main]: >>>>>> Stage Data Ingestion Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:53:12,566: INFO: main]: >>>>>> Stage Data Validation Stage started <<<<<<
+[2026-01-27 23:53:12,567: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:53:12,568: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:53:12,569: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:53:12,570: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:53:12,570: INFO: common]: Directory created at: artifacts/data_validation
+[2026-01-27 23:53:12,605: INFO: main]: >>>>>> Stage Data Validation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:53:12,605: INFO: main]: >>>>>> Stage Data Transformation Stage started <<<<<<
+[2026-01-27 23:53:12,610: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:53:12,612: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:53:12,613: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:53:12,614: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:53:12,615: INFO: common]: Directory created at: artifacts/data_transformation
+[2026-01-27 23:53:12,635: INFO: data_transformation]: Data split completed
+[2026-01-27 23:53:12,636: INFO: data_transformation]: Train data shape: (1279, 12)
+[2026-01-27 23:53:12,636: INFO: data_transformation]: Test data shape: (320, 12)
+[2026-01-27 23:53:12,636: INFO: main]: >>>>>> Stage Data Transformation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:53:12,637: INFO: main]: >>>>>> Stage Data Training Stage started <<<<<<
+[2026-01-27 23:53:12,638: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:53:12,639: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:53:12,642: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:53:12,643: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:53:12,643: INFO: common]: Directory created at: artifacts/model_trainer
+[2026-01-27 23:53:12,695: INFO: main]: >>>>>> Stage Data Training Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:53:12,696: INFO: main]: >>>>>> Stage Model Evaluation Stage started <<<<<<
+[2026-01-27 23:53:12,698: INFO: common]: YAML file: config\config.yaml loaded successfully
+[2026-01-27 23:53:12,699: INFO: common]: YAML file: params.yaml loaded successfully
+[2026-01-27 23:53:12,701: INFO: common]: YAML file: schema.yaml loaded successfully
+[2026-01-27 23:53:12,702: INFO: common]: Directory created at: artifacts
+[2026-01-27 23:53:12,702: INFO: common]: Directory created at: artifacts/model_evaluation
+[2026-01-27 23:53:14,601: INFO: common]: JSON file saved at: artifacts\model_evaluation\metric.json
+[2026-01-27 23:53:30,468: INFO: main]: >>>>>> Stage Model Evaluation Stage completed <<<<<<
+
+x==========x
+[2026-01-27 23:53:30,898: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:30] "GET /train HTTP/1.1" 200 -
+[2026-01-27 23:53:40,925: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:40] "GET / HTTP/1.1" 200 -
+[2026-01-27 23:53:40,959: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:40] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2026-01-27 23:53:53,858: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:53:53] "POST /predict HTTP/1.1" 200 -
+[2026-01-27 23:54:06,946: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:54:06] "GET / HTTP/1.1" 200 -
+[2026-01-27 23:54:06,964: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:54:06] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2026-01-27 23:54:07,212: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:54:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-01-27 23:56:16,080: INFO: _internal]:  * Detected change in 'C:\\Users\\Korisnik\\Desktop\\ml_projects\\ds_resume_light_project\\ds_resume_light_project\\src\\ds_resume_light_project\\pipeline\\prediction_pipeline.py', reloading
+[2026-01-27 23:56:16,082: INFO: _internal]:  * Detected change in 'C:\\Users\\Korisnik\\Desktop\\ml_projects\\ds_resume_light_project\\ds_resume_light_project\\src\\ds_resume_light_project\\pipeline\\prediction_pipeline.py', reloading
+[2026-01-27 23:56:16,233: INFO: _internal]:  * Restarting with watchdog (windowsapi)
+[2026-01-27 23:56:17,035: WARNING: _internal]:  * Debugger is active!
+[2026-01-27 23:56:17,038: INFO: _internal]:  * Debugger PIN: 802-203-129
+[2026-01-27 23:56:23,215: INFO: _internal]:  * Detected change in 'C:\\Users\\Korisnik\\anaconda3\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+[2026-01-27 23:56:23,240: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:56:23] "POST /predict HTTP/1.1" 200 -
+[2026-01-27 23:56:24,279: INFO: _internal]:  * Restarting with watchdog (windowsapi)
+[2026-01-27 23:56:25,038: WARNING: _internal]:  * Debugger is active!
+[2026-01-27 23:56:25,041: INFO: _internal]:  * Debugger PIN: 802-203-129
+[2026-01-27 23:56:31,435: INFO: _internal]: 127.0.0.1 - - [27/Jan/2026 23:56:31] "POST /predict HTTP/1.1" 200 -
